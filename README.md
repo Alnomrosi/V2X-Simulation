@@ -14,6 +14,6 @@ This project is carried out as part of the V2X Mobile Communication course, unde
 - Open OMNET++ import both Veins_new and v2x_PROJECT to your workspace.
 - Add Veins as a refrance to v2x_PROJECT.
 - Open v2x_PROJECT and run omnetpp.ini.
-- You can see now OMNET++ Qtenv GUI you run the simulation and see the messages.
+- You can see now OMNET++ Qtenv GUI you can run the simulation and see the messages.
 
 
