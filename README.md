@@ -5,7 +5,7 @@ This project is carried out as part of the V2X Mobile Communication course, unde
 
 # Project Description 
 - The project aims to simulate three vehicles on a map imported from SUMO (Simulation of Urban Mobility).
-- The vehicles will change their IDs periodically to maintain anonymity.
+- The vehicles changes their IDs periodically to maintain anonymity.
 
 
 NOTE: To run this project you should Install OMNET++ on your device.
