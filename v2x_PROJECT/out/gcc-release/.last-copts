@@ -1,0 +1,1 @@
+-O3 -DNDEBUG=1 -ffp-contract=off   -MMD -MP -MF .d    -isystem /opt/mingw64/include -fno-omit-frame-pointer -DWITH_QTENV -DWITH_NETBUILDER -DWITH_OSG -DOMNETPPLIBS_IMPORT -DVEINS_IMPORT -I. -I../veins_new/veins-master-new/src -Isrc -I/c/OMENT/omnetpp-6.0.3/include

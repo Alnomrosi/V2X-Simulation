@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--debug config-->
+<launch>
+		<copy file="Madenty_Network.net.xml"/>
+		<copy file="Madenty_Route.rou.xml"/>
+		<copy file="Madenty_Conf.sumocfg" type="config"/>
+</launch>
+		
+
+	

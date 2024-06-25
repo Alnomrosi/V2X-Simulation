@@ -1,0 +1,95 @@
+file 7572 1719333223                                            
+version 3
+run Default-0-20240625-19:33:20-19728
+attr configname Default
+attr datetime 20240625-19:33:20
+attr datetimef 20240625-193320
+attr experiment Default
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network v2xNetwork
+attr processid 19728
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config image-path ../veins_new/veins-master-new/images
+config cmdenv-express-mode true
+config cmdenv-autoflush true
+config cmdenv-status-frequency 1s
+config image-path ../../images
+config network v2xNetwork
+config print-undisposed true
+config sim-time-limit 330s
+config *.playgroundSizeX 5500m
+config *.playgroundSizeY 2500m
+config *.playgroundSizeZ 2000m
+config *.annotations.draw true
+config *.manager.updateInterval 1s
+config *.manager.host "\"localhost\""
+config *.manager.port 9999
+config *.manager.autoShutdown true
+config *.manager.launchConfig "xmldoc(\"v2xproj.launchd.xml\")"
+config *.connectionManager.sendDirect true
+config *.connectionManager.maxInterfDist 2600m
+config *.connectionManager.drawMaxIntfDist false
+config *.**.nic.mac1609_4.useServiceChannel false
+config *.**.nic.mac1609_4.txPower 20mW
+config *.**.nic.mac1609_4.bitrate 6Mbps
+config *.**.nic.phy80211p.minPowerLevel -110dBm
+config *.**.nic.phy80211p.useNoiseFloor true
+config *.**.nic.phy80211p.noiseFloor -98dBm
+config *.**.nic.phy80211p.decider "xmldoc(\"config.xml\")"
+config *.**.nic.phy80211p.analogueModels "xmldoc(\"config.xml\")"
+config *.**.nic.phy80211p.usePropagationDelay true
+config *.**.nic.phy80211p.antenna "xmldoc(\"antenna.xml\", \"/root/Antenna[@id='monopole']\")"
+config *.node[*].nic.phy80211p.antennaOffsetY "0 m"
+config *.node[*].nic.phy80211p.antennaOffsetZ "1.895 m"
+config *.node[*].applType "\"MyVeinsApp\""
+config *.node[*].appl.headerLength "80 bit"
+config *.node[*0].appl.sendBeacons true
+config *.node[*].appl.dataOnSch false
+config *.node[*].appl.beaconInterval 10s
+config *.node[*].veinsmobility.x 0
+config *.node[*].veinsmobility.y 0
+config *.node[*].veinsmobility.z 0
+config *.node[*].veinsmobility.setHostSpeed false
+config *.node[*0].veinsmobility.accidentCount 0
+config *.node[*0].veinsmobility.accidentStart 73s
+config *.node[*0].veinsmobility.accidentDuration 50s
+
+vector 0 v2xNetwork.node[0].veinsmobility posx ETV
+vector 1 v2xNetwork.node[0].veinsmobility posy ETV
+vector 2 v2xNetwork.node[1].veinsmobility posx ETV
+vector 3 v2xNetwork.node[1].veinsmobility posy ETV
+vector 4 v2xNetwork.node[2].veinsmobility posx ETV
+vector 5 v2xNetwork.node[2].veinsmobility posy ETV
+vector 6 v2xNetwork.node[0].veinsmobility speed ETV
+vector 7 v2xNetwork.node[1].veinsmobility speed ETV
+vector 8 v2xNetwork.node[2].veinsmobility speed ETV
+vector 9 v2xNetwork.node[0].veinsmobility acceleration ETV
+vector 10 v2xNetwork.node[0].veinsmobility co2emission ETV
+vector 11 v2xNetwork.node[1].veinsmobility acceleration ETV
+vector 12 v2xNetwork.node[1].veinsmobility co2emission ETV
+vector 13 v2xNetwork.node[2].veinsmobility acceleration ETV
+vector 14 v2xNetwork.node[2].veinsmobility co2emission ETV
+0	3189 312 2 72 1 13 13 1487.2138067433 1616.4832018188 20346.485771428 31868380.043962
+1	3501 311 2 72 1 13 13 774.02417555443 793.39599548218 10191.946423524 7991099.5045495
+2	3812 311 2 72 1 13 13 1083.7424396783 1172.0036980643 14476.082756641 16130551.8619
+3	4123 312 2 72 1 13 13 635.17314520683 701.28190348525 8678.9815568538 5802492.22472
+4	4435 313 2 72 1 13 13 2010.3508818273 2076.3141223313 26686.256300074 54787007.554482
+5	4748 311 2 72 1 13 13 1119.2519574636 1226.0325323446 15338.326127311 18114180.555347
+6	5059 289 3 72 2 13 12 2.2281300266739 15.391476303891 131.13639515116 1663.582592697
+7	5348 288 3 72 2 13 12 1.528189688758 14.307865067295 120.71776625391 1447.2178874129
+8	5636 288 3 72 2 13 12 2.5865135943983 14.234306788254 127.23343243492 1527.6369297379
+9	5924 274 4 72 3 13 11 -0.66816778210923 2.5623109196546 12.495178495108 25.357300358825
+10	6198 258 4 72 3 13 11 0.973 7.7079253396552 50.463831330461 290.2660975908
+11	6456 284 4 72 3 13 11 -0.6159113698639 2.5100635003299 11.786063819152 24.697965014229
+12	6740 268 4 72 3 13 11 0.973 8.1567057698801 44.711968028372 239.51169587917
+13	7008 285 4 72 3 13 11 -0.2554593447363 2.1262006659992 11.647793193856 20.463336233447
+14	7293 277 4 72 3 13 11 1.1621566881027 6.7086534962574 46.086966207316 228.26450732958
+
